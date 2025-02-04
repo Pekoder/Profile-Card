@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="profileCard__container">
+            <div class="profileCard__image">
+                <img src="profilePic.png" class="profile__img" data-testid="profilePicture" alt="profileImage">
+            </div>
+            <div class="profileCard__introduction">
+                <h1 data-testid="fullName" class="profileCard__fullname">Ibikunle Peace</h1>
+                <p data-testid="currentLocation" class="profileCard__location">Ogun, Nigeria.</p>
+                <h2 data-testid="jobTitle" class="profileCard__jobtitle">Frontend Developer</h2>
+            </div>
+            <div class="profileCard__bio">
+                <p data-testid="shortBio" class="shortBio">
+                    I am a highly motivated developer with a passion for innovative technologies. I began my programming journey in December 2023 and have since acquired skills in HTML, CSS, JavaScript, and React. Currently, I'm expanding my expertise with Next.js, driven with a desire to craft exceptional digital experience.
+                </p>
+            </div>
+            <div class="profileCard__emailadd">
+                <i class="fi fi-rr-envelope"></i>
+                <a href="mailto:ibikunlepeace900@gmail.com" data-testid="emailAddress" target="_blank">ibikunlepeace900@gmail.com</a>
+            </div>
+            <div class="profileCard__socialicons" data-testid="socialLinks">
+                <a href="https://github.com/Pekoder" target="_blank" ><i class="fi fi-brands-github icons"></i></a>
+                <a href="https://www.facebook.com/ibikunlepeace1" target="_blank" ><i class="fi fi-brands-facebook icons"></i></a>
+                <a href="https://x.com/ibikunle_peace" target="_blank" ><i class="fi fi-brands-twitter-alt-circle icons icons3"></i></a>
+                
+            </div>
+            <div class="currentTime">
+                <p data-testid="currentTimeUTC" id="currentTimeUTC">
+                    Current time
+                </p>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
